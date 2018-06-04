@@ -8,6 +8,8 @@ git add .
 
 git commit
 
+git push origin master
+
 aws s3 sync $site s3://$bucket
 
 
