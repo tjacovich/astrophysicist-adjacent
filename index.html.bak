@@ -3,7 +3,7 @@
 	Photon by HTML5 UP	html5up.net | @ajlkn	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)-->
 <html>
   <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Astrophysicist Adjacent</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -19,7 +19,7 @@
       <div class="inner">
         <p>The work of some guy as he tries to become an astrophysicist</p>
         <ul class="actions">
-          <li><a title="My CV" href="assets/tjacovichcv.pdf" class="button scrolly">
+          <li><a title="My CV" href="about/about.html" class="button scrolly">
               About Me </a> <a title="Research" href="research.html" class="button scrolly">
               Research </a> <a title="Afterglow Project Whitepaper" href="afterglow.html"
               class="button scrolly">The Afterglow Project</a> <a title="Afterglow Project Whitepaper"
