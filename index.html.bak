@@ -19,12 +19,11 @@
       <div class="inner">
         <p>The work of some guy as he tries to become an astrophysicist</p>
         <ul class="actions">
-          <li><a title="My CV" href="about/about.html" class="button scrolly">
+          <li><a title="About Me" href="about/about.html" class="button scrolly">
               About Me </a> <a title="Research" href="research.html" class="button scrolly">
-              Research </a> <a title="Afterglow Project Whitepaper" href="afterglow.html"
-              class="button scrolly">The Afterglow Project</a> <a title="Afterglow Project Whitepaper"
-              href="https://thephysicslounge.blogspot.com" class="button scrolly">The
-              Physics Lounge</a> </li>
+              Research </a><a title="The Physics Lounge" href="https://thephysicslounge.blogspot.com"
+              class="button scrolly">The Physics Lounge</a><a title="Gogs" href="gogs.astrophysicist-adjacent.com/tjacovich"
+              class="button scrolly">Gogs Repository</a> </li>
         </ul>
       </div>
     </section>
