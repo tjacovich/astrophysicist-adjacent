@@ -122,7 +122,9 @@
             medium, causing mainly electrons within the CSM to be accelerated to
             relativisitic speeds similar to the jet. These electrons then
             interact with the induced magnetic field in the medium and radiate
-            away their energy in the form of synchrotron radiation.&nbsp; </p>
+            away their energy in the form of synchrotron radiation.&nbsp;&nbsp;
+            I'll talk more about this when I do a complete end-to-end discussion
+            of afterglow physics and modeling.</p>
           <p>To a fair degree, we can approximate this entire process with what
             is called the standard fireball model, but that assumes we always
             view these jets face on, and that they are thin slabs of uniform
@@ -136,7 +138,16 @@
           <h3> </h3>
           <h3>Part 2: Synchrotron Self-Compton Additions to Afterglow Emission </h3>
           <p>boxfit is an amazing piece of kit.&nbsp; It contains a great deal
-            of functionality for fitting generic afterglows, </p>
+            of functionality for fitting generic afterglows, but it is somewhat
+            limited due to the fact that it only&nbsp; contains synchrotron
+            emission.&nbsp; Although synchrotron emission is the main source of
+            emission, the large quantity of accelerated electrons in the medium
+            means that it is likely&nbsp; for emitted photons to collide with
+            electrons and either gain or lose energy.&nbsp; In general, this
+            scattering is called inverse-compton emission when the photons gain
+            energy, and in the GRB case, it has a the name of synchrotron
+            self-compton because the synchrotron emission is scattering off the
+            same group of electrons that emitted it.</p>
           <footer> </footer>
         </article>
       </div>
