@@ -99,18 +99,44 @@
             have made in the past week. In particular, I am going to talk (rant)
             about an odd issue I have come across in adding new functionality to
             boxfit, and how I've gone about debugging it.</p>
-          <p>Nunc quis dui scelerisque, scelerisque urna ut, dapibus orci. Sed
-            vitae condimentum lectus, ut imperdiet quam. Maecenas in justo ut
-            nulla aliquam sodales vel at ligula. Sed blandit diam odio, sed
-            fringilla lectus molestie sit amet. Praesent eu tortor viverra lorem
-            mattis pulvinar feugiat in turpis. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra, per inceptos himenaeos. Fusce
-            ullamcorper tellus sit amet mattis dignissim. Phasellus ut metus
-            ligula. Curabitur nec leo turpis. Ut gravida purus quis erat
-            pretium, sed pellentesque massa elementum. Fusce vestibulum porta
-            augue, at mattis justo. Integer sed sapien fringilla, dapibus risus
-            id, faucibus ante. Pellentesque mattis nunc sit amet tortor
-            pellentesque, non placerat neque viverra. </p>
+          <h3>Part 1: Afterglow emission and boxfit</h3>
+          <p>GRB Afterglows are the result of the death throes of a massive
+            star.&nbsp; When these stars eventually begin fusing iron in their
+            cores and lose the energy that keeps gravity from dragging the outer
+            layers of the star down on top of it. The star collapses and the
+            outer layers rebound off the densest portions of the core resulting
+            in a massive explosion known as a supernova.&nbsp; In some of these
+            events, massive jets moving at speeds very nearly the speed of
+            light. We are not sure of the exact mechanisms that drive the jets,
+            but we know they are exceedingly rare, and associated with only
+            truly massive stars, and subset of supernovae known as Type
+            Ic.&nbsp; Regardless of the exact origin, the jet rapidly expands
+            away from the star, and eventually collides with the ambient gas and
+            dust surrounding it, known as the circumstellar or interstellar
+            medium.&nbsp; </p>
+          <p>The CSM varies in make-up and density, but it generally behaves
+            like the outflow of the exploding star, or like a perfectly uniform
+            distribution of gas and dust. The exact shape of the medium affects
+            the long-term behavior of the afterglow.&nbsp; The afterglow itself
+            emerges when a shock forms between the GRB jet and the interstellar
+            medium, causing mainly electrons within the CSM to be accelerated to
+            relativisitic speeds similar to the jet. These electrons then
+            interact with the induced magnetic field in the medium and radiate
+            away their energy in the form of synchrotron radiation.&nbsp; </p>
+          <p>To a fair degree, we can approximate this entire process with what
+            is called the standard fireball model, but that assumes we always
+            view these jets face on, and that they are thin slabs of uniform
+            material.&nbsp; What boxfit adds to the mix is that it produces a
+            true simulation of the fluid state of the jet as it interacts with
+            the medium, and divides the jet into cells that have the exact same
+            conditions so we can calculate the emission of each cell without
+            needing to worry about any variation.&nbsp; The total emission is
+            calculated numerically by drawing rays through the jet to the
+            observer and using standard radiation transfer.&nbsp; </p>
+          <h3> </h3>
+          <h3>Part 2: Synchrotron Self-Compton Additions to Afterglow Emission </h3>
+          <p>boxfit is an amazing piece of kit.&nbsp; It contains a great deal
+            of functionality for fitting generic afterglows, </p>
           <footer> </footer>
         </article>
       </div>
@@ -133,6 +159,5 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
-    
   </body>
 </html>
