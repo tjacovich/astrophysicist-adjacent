@@ -126,45 +126,84 @@
             away their energy in the form of synchrotron radiation.&nbsp;&nbsp;
             I'll talk more about this when I do a complete end-to-end discussion
             of afterglow physics and modeling.</p>
-          <img src="images/IMG_20180617_221300.jpg" alt="Synchrotron Diagram" title="Synchrotron Diagram"
-            style="float:left; padding-left:60px; padding-right:20px;" width="400px;">
-          <italic>
-            <h4 style="padding-right:40px;">Synchrotron Radiation from an
-              Electron in a Dipole Magnetic Field</h4>
-            <p style="padding-right:60px;"> <i>For a more visual explanation of
-                where afterglow radiation comes from, we can imagine an <br>
-              </i></p>
-            <i> </i></italic><i> </i><br>
-          <br clear="all">
-          <br>
-          <p>To a fair degree, we can approximate this entire process with what
-            is called the standard fireball model, but that assumes we always
-            view these jets face on, and that they are thin slabs of uniform
-            material.&nbsp; What boxfit adds to the mix is that it produces a
-            true simulation of the fluid state of the jet as it interacts with
-            the medium, and divides the jet into cells that have the exact same
-            conditions so we can calculate the emission of each cell without
-            needing to worry about any variation.&nbsp; The total emission is
-            calculated numerically by drawing rays through the jet to the
-            observer and using standard radiation transfer.&nbsp; </p>
-          <h3> </h3>
-          <h3>Part 2: Synchrotron Self-Compton Additions to Afterglow Emission </h3>
-          <p>boxfit is an amazing piece of kit.&nbsp; It contains a great deal
-            of functionality for fitting generic afterglows, but it is somewhat
-            limited due to the fact that it only&nbsp; contains synchrotron
-            emission.&nbsp; Although synchrotron emission is the main source of
-            emission, the large quantity of accelerated electrons in the medium
-            means that it is likely&nbsp; for emitted photons to collide with
-            electrons and either gain or lose energy.&nbsp; In general, this
-            scattering is called inverse-compton emission when the photons gain
-            energy, and in the GRB case, it has a the name of synchrotron
-            self-compton because the synchrotron emission is scattering off the
-            same group of electrons that emitted it.</p>
-          <p style="text-align: center;"><em>insert scattering diagram here.</em></p>
-          <h3></h3>
-          <p>b</p>
-          <footer> </footer>
-        </article>
+          <!--Image 1 here--> <img src="images/IMG_20180617_221300.jpg" alt="Synchrotron Diagram"
+            title="Synchrotron Diagram" style="float:left; border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border: 3px solid #000000;"
+            width="550px;"><b> </b><italic><b> </b></italic>
+          <h2><italic>
+              <h4 style="padding-left:590px; padding-right:40px;">Synchrotron
+                Radiation from an Electron in a Dipole Magnetic Field</h4>
+            </italic></h2>
+          <italic> </italic><italic>
+            <p style="padding-right:60px;padding-left:590px;font-family:Times;">
+              <i>For a more visual explanation of where afterglow radiation
+                comes from, we can imagine an electron moving through space at
+                speed that can be measured in fractions of the speed of
+                light(green line). Although the exact mechanism is different, we
+                can imagine our object is quite similar to a bar magnet. When
+                the electron gets close to the object, it is drawn to the
+                magnetic field, but due to a quirk of physics, a magnetic field
+                cannot perform any work on the particle. Instead, the magnetic
+                field can only make the electron spiral around the magentic
+                field line, and the spiraling causes a periodically variable
+                electric field--the basis for classical light(see inset). </i></p>
+            <br clear="all">
+            <!--end image-->
+            <p>To a fair degree, we can approximate this entire process with
+              what is called the standard fireball model, but that assumes we
+              always view these jets face on, and that they are thin slabs of
+              uniform material.&nbsp; What boxfit adds to the mix is that it
+              produces a true simulation of the fluid state of the jet as it
+              interacts with the medium, and divides the jet into cells that
+              have the exact same conditions so we can calculate the emission of
+              each cell without needing to worry about any variation.&nbsp; The
+              total emission is calculated numerically by drawing rays through
+              the jet to the observer and using standard radiation
+              transfer.&nbsp; </p>
+            <h3> </h3>
+            <h3>Part 2: Synchrotron Self-Compton Additions to Afterglow Emission
+            </h3>
+            <p>boxfit is an amazing piece of kit.&nbsp; It contains a great deal
+              of functionality for fitting generic afterglows, but it is
+              somewhat limited due to the fact that it only&nbsp; contains
+              synchrotron emission.&nbsp; Although synchrotron emission is the
+              main source of emission, the large quantity of accelerated
+              electrons in the medium means that it is likely&nbsp; for emitted
+              photons to collide with electrons and either gain or lose
+              energy.&nbsp; In general, this scattering is called
+              inverse-compton emission when the photons gain energy, and in the
+              GRB case, it has a the name of synchrotron self-compton because
+              the synchrotron emission is scattering off the same group of
+              electrons that emitted it.</p>
+            <!--Image 2 here--> <img src="images/IMG_20180617_221211.jpg" alt="SSC Diagram"
+              title="SSC Diagram" style="float:left; border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border: 3px solid #000000;"
+              width="550px;"><b> </b><italic><b> </b></italic>
+            <h2><italic>
+                <h4 style="padding-left:590px; padding-right:40px;">Synchrotron
+                  Self-Compton Radiation in a Cloud of Electrons</h4>
+              </italic></h2>
+            <italic> </italic><italic>
+              <p style="padding-right:60px;padding-left:590px;font-family:Times;">
+                <i>Synchrotron Self-Compton can be depicted as a bunch of
+                  electrons moving through a magentic field. These electrons are
+                  emitting much like depicted above, but we can see there are
+                  some additional things to consider. Many of the photons are
+                  sent back into the electrons, and a lot of them collide with
+                  another electron. In the inset, we can see that when these
+                  collisions occur the photon gains a lot of energy (Assuming
+                  the electron has more energy than the photon and we are well
+                  below the rest-mass of the electron). This causes the spectrum
+                  of the emitted light to change quite a bit as photons are
+                  scattered to higher energies and smaller wavelengths, as well
+                  as scattered to the point where they may split into
+                  electron-positron pairs, causing that emission to be
+                  completely lost to the observer.</i></p>
+              <br clear="all">
+              <!--end image-->
+              <p>b</p>
+              <footer> </footer>
+            </italic></italic></article>
       </div>
       <!-- Footer -->
       <section id="footer">
