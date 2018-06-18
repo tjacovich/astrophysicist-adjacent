@@ -176,15 +176,15 @@
               the synchrotron emission is scattering off the same group of
               electrons that emitted it.</p>
             <!--Image 2 here--> <img src="images/IMG_20180617_221211.jpg" alt="SSC Diagram"
-              title="SSC Diagram" style="float:left; border-radius: 0px 0px 0px 0px;
+              title="SSC Diagram" style="float:right; border-radius: 0px 0px 0px 0px;
 -moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border: 3px solid #000000;"
               width="550px;"><b> </b><italic><b> </b></italic>
             <h2><italic>
-                <h4 style="padding-left:590px; padding-right:40px;">Synchrotron
+                <h4 style="padding-right:590px; padding-left:40px;">Synchrotron
                   Self-Compton Radiation</h4>
               </italic></h2>
             <italic> </italic><italic>
-              <p style="padding-right:60px;padding-left:590px;font-family:Times;">
+              <p style="padding-left:40px;padding-right:590px;font-family:Times;">
                 <i>Synchrotron Self-Compton can be depicted as a bunch of
                   electrons moving through a magentic field. These electrons are
                   emitting much like depicted above, but we can see there are
