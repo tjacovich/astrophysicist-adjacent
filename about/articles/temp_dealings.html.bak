@@ -127,13 +127,14 @@
             I'll talk more about this when I do a complete end-to-end discussion
             of afterglow physics and modeling.</p>
           <img src="images/IMG_20180617_221300.jpg" alt="Synchrotron Diagram" title="Synchrotron Diagram"
-            style="float:left; padding-right:20px;" width="400px;" border="10">
+            style="float:left; padding-left:60px; padding-right:20px;" width="400px;">
           <italic>
-            <h4> Synchrotron Radiation from an Electron in a Dipole Magnetic
-              Field</h4>
-            <p> For a more visual explanation of where afterglow radiation comes
-              from </p>
-          </italic> <br>
+            <h4 style="padding-right:40px;">Synchrotron Radiation from an
+              Electron in a Dipole Magnetic Field</h4>
+            <p style="padding-right:60px;"> <i>For a more visual explanation of
+                where afterglow radiation comes from, we can imagine an <br>
+              </i></p>
+            <i> </i></italic><i> </i><br>
           <br clear="all">
           <br>
           <p>To a fair degree, we can approximate this entire process with what
@@ -184,6 +185,5 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
-    
   </body>
 </html>
