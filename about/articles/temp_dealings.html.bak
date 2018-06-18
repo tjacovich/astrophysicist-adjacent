@@ -114,6 +114,7 @@
             the jet rapidly expands away from the star, and eventually collides
             with the ambient gas and dust surrounding it, known as the
             circumstellar or interstellar medium.&nbsp; </p>
+          <p style="text-align: center;"><i>insert jet image here</i></p>
           <p>The CSM varies in make-up and density, but it generally behaves
             like the outflow of the exploding star, or like a perfectly uniform
             distribution of gas and dust. The exact shape of the medium affects
@@ -124,7 +125,11 @@
             interact with the induced magnetic field in the medium and radiate
             away their energy in the form of synchrotron radiation.&nbsp;&nbsp;
             I'll talk more about this when I do a complete end-to-end discussion
-            of afterglow physics and modeling.</p>
+            of afterglow physics and modeling.</p><p>
+          
+           <img src="images/IMG_20180617_221300.jpg"
+              alt="Synchrotron Diagram" title="Synchrotron Diagram" style="float:center;"
+              width="300px;"></p>
           <p>To a fair degree, we can approximate this entire process with what
             is called the standard fireball model, but that assumes we always
             view these jets face on, and that they are thin slabs of uniform
@@ -148,6 +153,9 @@
             energy, and in the GRB case, it has a the name of synchrotron
             self-compton because the synchrotron emission is scattering off the
             same group of electrons that emitted it.</p>
+          <p style="text-align: center;"><em>insert scattering diagram here.</em></p>
+          <h3></h3>
+          <p>b</p>
           <footer> </footer>
         </article>
       </div>
@@ -170,5 +178,6 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
+    
   </body>
 </html>
