@@ -22,7 +22,7 @@
           <li><a title="About Me" href="about/about.html" class="button scrolly">
               About Me </a> <a title="Research" href="research.html" class="button scrolly">
               Research </a><a title="The Physics Lounge" href="https://thephysicslounge.blogspot.com"
-              class="button scrolly">The Physics Lounge</a><a title="Gogs" href="gogs.astrophysicist-adjacent.com/tjacovich"
+              class="button scrolly">The Physics Lounge</a><a title="Gogs" href="https://gogs.astrophysicist-adjacent.com/tjacovich"
               class="button scrolly">Gogs Repository</a> </li>
         </ul>
       </div>
