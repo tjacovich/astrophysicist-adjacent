@@ -2335,13 +2335,13 @@
 		image.fithead {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 70%;
                   max-width: 300px;
 		}
 
 			.image.fithead img {
-				width: 100%;
-				max-width: 800px;
+				width: 70%;
+				max-width: 500px;
 			}
 
 /* List */
