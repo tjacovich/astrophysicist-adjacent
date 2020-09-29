@@ -4,15 +4,14 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Will There Be Trad Climbing on Mars?</title>
+    <title>September Update</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css">
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   </head>
-  <body class="single">
-    <!-- Wrapper -->
+  <body class="single"> <!-- Wrapper -->
     <div id="wrapper">
       <!-- Header -->
       <header id="header">
@@ -93,45 +92,47 @@
           <p style="text-align: justify;"> &nbsp;&nbsp;&nbsp; </p>
         </article>
       </div>
-      <h1>CSS-only Carousel</h1>
-          <p>This carousel is created with HTML and CSS only.</p>
-          <section class="carousel" aria-label="Gallery">
-            <ol class="carousel__viewport">
-              <li id="carousel__slide1" tabindex="0" class="carousel__slide">
-                <div class="carousel__snapper"> <a href="#carousel__slide4" class="carousel__prev">Go
-                    to last slide</a> <a href="#carousel__slide2" class="carousel__next">Go
-                    to next slide</a> </div>
-              </li>
-              <li id="carousel__slide2" tabindex="0" class="carousel__slide">
-                <div class="carousel__snapper"></div>
-                <a href="#carousel__slide1" class="carousel__prev">Go to
-                  previous slide</a> <a href="#carousel__slide3" class="carousel__next">Go
-                  to next slide</a> </li>
-              <li id="carousel__slide3" tabindex="0" class="carousel__slide">
-                <div class="carousel__snapper"></div>
-                <a href="#carousel__slide2" class="carousel__prev">Go to
-                  previous slide</a> <a href="#carousel__slide4" class="carousel__next">Go
-                  to next slide</a> </li>
-              <li id="carousel__slide4" tabindex="0" class="carousel__slide">
-                <div class="carousel__snapper"></div>
-                <a href="#carousel__slide3" class="carousel__prev">Go to
-                  previous slide</a> <a href="#carousel__slide1" class="carousel__next">Go
-                  to first slide</a> </li>
-            </ol>
-            <aside class="carousel__navigation">
-              <ol class="carousel__navigation-list">
-                <li class="carousel__navigation-item"> <a href="#carousel__slide1"
-                    class="carousel__navigation-button">Go to slide 1</a> </li>
-                <li class="carousel__navigation-item"> <a href="#carousel__slide2"
-                    class="carousel__navigation-button">Go to slide 2</a> </li>
-                <li class="carousel__navigation-item"> <a href="#carousel__slide3"
-                    class="carousel__navigation-button">Go to slide 3</a> </li>
-                <li class="carousel__navigation-item"> <a href="#carousel__slide4"
-                    class="carousel__navigation-button">Go to slide 4</a> </li>
-              </ol>
-            </aside>
-          </section>
-      <!-- Footer -->
+<!-- Test code -->      
+<div class="CSSgal">
+
+  <!-- Don't wrap targets in parent -->
+  <s id="s1"></s> 
+  <s id="s2"></s>
+  <s id="s3"></s>
+  <s id="s4"></s>
+
+  <div class="slider">
+    <div style="background:#5b8;">
+			<h2>PURE <b>CSS</b> SLIDESHOW</h2>
+			<p>Responsive Slideshow Gallery created using CSS only<br>by Roko</p>
+		</div>
+    <div style="background:#85b;">
+			<h2>Slide 2</h2>
+		</div>
+    <div style="background:#e95;">
+			<h2>Slide 3</h2>
+		</div>
+    <div style="background:#e59;">
+			<h2>Slide 4</h2>
+		</div>
+  </div>
+  
+  <div class="prevNext">
+    <div><a href="#s4"></a><a href="#s2"></a></div>
+    <div><a href="#s1"></a><a href="#s3"></a></div>
+    <div><a href="#s2"></a><a href="#s4"></a></div>
+    <div><a href="#s3"></a><a href="#s1"></a></div>
+  </div>
+
+  <div class="bullets">
+    <a href="#s1">1</a>
+    <a href="#s2">2</a>
+    <a href="#s3">3</a>
+    <a href="#s4">4</a>
+  </div>
+
+</div>
+<!-- Footer -->
       <section id="footer">
         <ul class="icons">
           <li><a href="https://twitter.com/tay_jacs" class="fa-twitter"><span class="label">Twitter</span></a></li>
