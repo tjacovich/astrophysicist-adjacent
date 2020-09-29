@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--
+	Future Imperfect by HTML5 UP	html5up.net | @ajlkn	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)-->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Will There Be Trad Climbing on Mars?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  </head>
+  <body class="single">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1><a href="http://astrophysicist-adjacent.com/about/about.html">About
+            Me</a></h1>
+        <nav class="links">
+          <ul>
+            <li><a href="http://astrophysicist-adjacent.com" title="Home">HOME</a></li>
+            <li><a href="http://astrophysicist-adjacent.com/research.html">RESEARCH</a></li>
+            <li><a href="http://astrophysicist-adjacent.com/afterglow.html">THE
+                AFTERGLOW PROJECT</a></li>
+            <li><a href="tjacovichcv.pdf">CIRRICULUM VITAE</a></li>
+            <li><a href="http://thephysicslounge.blogspot.com">THE PHYSICS
+                LOUNGE </a></li>
+          </ul>
+        </nav>
+        <nav class="main">
+          <ul>
+            <li class="search"> <br>
+              <form id="search" method="get" action="#"> <input name="query" placeholder="Search"
+                  type="text"> </form>
+            </li>
+            <li class="menu"> <br>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Menu -->
+      <section id="menu">
+        <!-- Search -->
+        <section>
+          <form class="search" method="get" action="#"> <input name="query" placeholder="Search"
+              type="text"> </form>
+        </section>
+        <!-- Links -->
+        <section>
+          <ul class="links">
+            <li> <a href="#">
+                <h3>Lorem ipsum</h3>
+                <p>Feugiat tempus veroeros dolor</p>
+              </a> </li>
+            <li> <a href="#">
+                <h3>Dolor sit amet</h3>
+                <p>Sed vitae justo condimentum</p>
+              </a> </li>
+            <li> <a href="#">
+                <h3>Feugiat veroeros</h3>
+                <p>Phasellus sed ultricies mi congue</p>
+              </a> </li>
+            <li> <a href="#">
+                <h3>Etiam sed consequat</h3>
+                <p>Porta lectus amet ultricies</p>
+              </a> </li>
+          </ul>
+        </section>
+        <!-- Actions -->
+        <section>
+          <ul class="actions vertical">
+            <li><a href="#" class="button big fit">Log In</a></li>
+          </ul>
+        </section>
+      </section>
+      <!-- Main -->
+      <div id="main">
+        <!-- Post -->
+        <article class="post">
+          <header>
+            <div class="title">
+              <h2>So, where have I been?</h2>
+              <p>Updates from two action-packed years.</p>
+            </div>
+            <div class="meta"> <time class="published" datetime="2018-02-10">September
+                28, 2020</time> <a href="#" class="author">Taylor Jacovich <img
+                  src="images/avatar.jpg" alt=""></a> </div>
+          </header>
+          <span class="image featured"><img src="images/cloudsinthenight.png" alt=""
+              width="50%"> </span>
+          <p style="text-align: justify;"> &nbsp;&nbsp;&nbsp; </p>
+        </article>
+      </div>
+      <h1>CSS-only Carousel</h1>
+          <p>This carousel is created with HTML and CSS only.</p>
+          <section class="carousel" aria-label="Gallery">
+            <ol class="carousel__viewport">
+              <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                <div class="carousel__snapper"> <a href="#carousel__slide4" class="carousel__prev">Go
+                    to last slide</a> <a href="#carousel__slide2" class="carousel__next">Go
+                    to next slide</a> </div>
+              </li>
+              <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide1" class="carousel__prev">Go to
+                  previous slide</a> <a href="#carousel__slide3" class="carousel__next">Go
+                  to next slide</a> </li>
+              <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide2" class="carousel__prev">Go to
+                  previous slide</a> <a href="#carousel__slide4" class="carousel__next">Go
+                  to next slide</a> </li>
+              <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide3" class="carousel__prev">Go to
+                  previous slide</a> <a href="#carousel__slide1" class="carousel__next">Go
+                  to first slide</a> </li>
+            </ol>
+            <aside class="carousel__navigation">
+              <ol class="carousel__navigation-list">
+                <li class="carousel__navigation-item"> <a href="#carousel__slide1"
+                    class="carousel__navigation-button">Go to slide 1</a> </li>
+                <li class="carousel__navigation-item"> <a href="#carousel__slide2"
+                    class="carousel__navigation-button">Go to slide 2</a> </li>
+                <li class="carousel__navigation-item"> <a href="#carousel__slide3"
+                    class="carousel__navigation-button">Go to slide 3</a> </li>
+                <li class="carousel__navigation-item"> <a href="#carousel__slide4"
+                    class="carousel__navigation-button">Go to slide 4</a> </li>
+              </ol>
+            </aside>
+          </section>
+      <!-- Footer -->
+      <section id="footer">
+        <ul class="icons">
+          <li><a href="https://twitter.com/tay_jacs" class="fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="https://instagram.com/tay_jacs" class="fa-instagram"><span
+                class="label">Instagram</span></a></li>
+          <li><a href="#" class="fa-rss"><span class="label">RSS</span></a></li>
+          <li><a href="mailto:tejacovich@gmail.com" class="fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <p class="copyright">© Taylor Jacovich. Design: <a href="http://html5up.net">HTML5
+            UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+      </section>
+    </div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
