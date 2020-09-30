@@ -1,0 +1,186 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url(main.css);
+
+/* Added code TEJ 9/29/20*/
+
+
+.carousel-wrapper{
+  height:400px;
+  position:relative;
+  width:800px;
+  margin:0 auto;
+}
+.carousel-item{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:25px 50px;
+  opacity:0;
+  transition: all 0.5s ease-in-out;
+}
+.arrow{
+  border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev{
+  left:-30px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(135deg);
+}
+ 
+.arrow-next{
+    right:-30px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(-45deg);
+  }
+
+.light{
+  color:white;
+}
+
+@media (max-width: 480px) {
+      .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+      }
+    }
+
+/*Select every element*/
+[id^="item"] {
+    display: none;
+  }
+
+.item-1{
+background:url('/about/portfolio/images/automotive/000-image.png');
+	 z-index:2;
+ opacity: 1;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-2{
+background:url('/about/portfolio/images/automotive/59562712295__C66F65DA-68C9-41C9-88F0-B2A6697764EF.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-3{
+background:url('/about/portfolio/images/automotive/59925086659__6C97ACAE-0379-4718-9002-765DAC7DB60A.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-4{
+background:url('/about/portfolio/images/automotive/62223738890__3F16E1A3-0E8E-4B71-BFEA-BA7C3B8A7DE0.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-5{
+background:url('/about/portfolio/images/automotive/64a1cfa97ed48c32cca9e6fd10921b67.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-6{
+background:url('/about/portfolio/images/automotive/66b334ac6636ba0b26ce9ec4f35d3e8e.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-7{
+background:url('/about/portfolio/images/automotive/7801fe221f0b1ea1caa3dee22c809870.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-8{
+background:url('/about/portfolio/images/automotive/c0ac71c9b3a7d5e3cf69ac9d4c591dca.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-9{
+background:url('/about/portfolio/images/automotive/IMG_2353.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-10{
+background:url('/about/portfolio/images/automotive/IMG_2356.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-11{
+background:url('/about/portfolio/images/automotive/IMG_2758.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-12{
+background:url('/about/portfolio/images/automotive/IMG_2760.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-13{
+background:url('/about/portfolio/images/automotive/IMG_3426.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-14{
+background:url('/about/portfolio/images/automotive/IMG_3427.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-15{
+background:url('/about/portfolio/images/automotive/IMG_3458.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-16{
+background:url('/about/portfolio/images/automotive/IMG_3608.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+*:target ~ .item-1 {
+ opacity: 0;
+ }
+
+#item-1:target ~ .item-1 {
+ opacity: 1;
+ }
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4, #item-5:target ~ .item-5, #item-6:target ~ .item-6, #item-7:target ~ .item-7, #item-8:target ~ .item-8, #item-9:target ~ .item-9, #item-10:target ~ .item-10, #item-11:target ~ .item-11, #item-12:target ~ .item-12, #item-13:target ~ .item-13, #item-14:target ~ .item-14, #item-15:target ~ .item-15, #item-16:target ~ .item-16 {
+	 z-index: 3;
+	 opacity: 1;
+}
