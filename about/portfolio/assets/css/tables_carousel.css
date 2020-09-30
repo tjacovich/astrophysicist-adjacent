@@ -1,0 +1,158 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url(main.css);
+
+/* Added code TEJ 9/29/20*/
+
+
+.carousel-wrapper{
+  height:400px;
+  position:relative;
+  width:800px;
+  margin:0 auto;
+}
+.carousel-item{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:25px 50px;
+  opacity:0;
+  transition: all 0.5s ease-in-out;
+}
+.arrow{
+  border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev{
+  left:-30px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(135deg);
+}
+ 
+.arrow-next{
+    right:-30px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(-45deg);
+  }
+
+.light{
+  color:white;
+}
+
+@media (max-width: 480px) {
+      .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+      }
+    }
+
+/*Select every element*/
+[id^="item"] {
+    display: none;
+  }
+
+.item-1{
+background:url('/about/portfolio/images/tables/image-1.png');
+	 z-index:2;
+ opacity: 1;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-2{
+background:url('/about/portfolio/images/tables/IMG_1575.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-3{
+background:url('/about/portfolio/images/tables/IMG_1576.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-4{
+background:url('/about/portfolio/images/tables/IMG_1580.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-5{
+background:url('/about/portfolio/images/tables/IMG_1581.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-6{
+background:url('/about/portfolio/images/tables/IMG_1582.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-7{
+background:url('/about/portfolio/images/tables/IMG_1591.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-8{
+background:url('/about/portfolio/images/tables/IMG_1592.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-9{
+background:url('/about/portfolio/images/tables/IMG_1593.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-10{
+background:url('/about/portfolio/images/tables/IMG_1594.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-11{
+background:url('/about/portfolio/images/tables/IMG_4854.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.item-12{
+background:url('/about/portfolio/images/tables/IMG_4855.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+*:target ~ .item-1 {
+ opacity: 0;
+ }
+
+#item-1:target ~ .item-1 {
+ opacity: 1;
+ }
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4, #item-5:target ~ .item-5, #item-6:target ~ .item-6, #item-7:target ~ .item-7, #item-8:target ~ .item-8, #item-9:target ~ .item-9, #item-10:target ~ .item-10, #item-11:target ~ .item-11, #item-12:target ~ .item-12 {
+	 z-index: 3;
+	 opacity: 1;
+}
