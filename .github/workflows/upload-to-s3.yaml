@@ -29,4 +29,5 @@ jobs:
       # Upload a file to AWS s3
       - name:  Copy contents to s3
         run: |
+          cd ./web-root/
           aws s3 sync . s3://${{ vars.TESTING_BUCKET }}/
