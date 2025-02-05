@@ -7,7 +7,6 @@ on:
 env:
   AWS_DEFAULT_REGION: us-east-1
   AWS_DEFAULT_OUTPUT: json
-  BUCKET_NAME : "aws-website-lettersfromthejourney-mo78e"
   AWS_REGION : "us-east-1"
 # permission can be added at job level or workflow level
 permissions:
@@ -29,4 +28,4 @@ jobs:
       - name:  Copy contents to s3
         run: |
           cd ./web-root/
-          aws s3 sync . s3://${{ vars.TESTING_BUCKET }}/
+          aws s3 sync . s3://${{ vars.PROD_BUCKET }}/
