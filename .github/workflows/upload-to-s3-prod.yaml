@@ -3,12 +3,11 @@ on:
   push:
     branches:
       - prod
-      - testing
 
 env:
   AWS_DEFAULT_REGION: us-east-1
   AWS_DEFAULT_OUTPUT: json
-  BUCKET_NAME : "test-astro-adjacent"
+  BUCKET_NAME : "aws-website-lettersfromthejourney-mo78e"
   AWS_REGION : "us-east-1"
 # permission can be added at job level or workflow level
 permissions:
